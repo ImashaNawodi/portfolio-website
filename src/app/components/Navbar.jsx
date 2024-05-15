@@ -15,6 +15,10 @@ const navLinks = [
     path: "#projects",
   },
   {
+    title: "Languages and Tools ",
+    path: "#languagesandtools",
+  },
+  {
     title: "Contact",
     path: "#contact",
   },
@@ -28,7 +32,7 @@ const Navbar = () => {
       <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
         <Link
           href={"/"}
-          className="text-sm md:text-5xl text-white font-semibold"
+          className="text-sm md:text-3xl text-white font-semibold"
         >
         ImashaNawodi
         </Link>
