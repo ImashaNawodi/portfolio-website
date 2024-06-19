@@ -16,7 +16,7 @@ const TAB_DATA = [
         <li>JavaScript</li>
         <li>React</li>
         <li>MongoDB</li>
-        <li>Next.js</li>
+        <li>Angular</li>
       </ul>
     ),
   },
@@ -30,7 +30,7 @@ const TAB_DATA = [
           Engineering(Undergraduate)
         </li>
         <li>Ananda Sastralaya,Mathugama </li>
-        <li>Diploma in Spoken English, British Way English Academy </li>
+        <li>British Way English Academy </li>
       </ul>
     ),
   },
@@ -44,11 +44,14 @@ const TAB_DATA = [
           Lanka
         </li>
         <li>Agile Project Management in ICT Projects,University of Moratuwa</li>
-        <li>The Certificate Course in English Language,University of Colombo</li>
-        <li>Web Design for Beginners,University of Moratuwa</li>
-        <li>Python Advanced,MIHA Institute</li>
 
-     
+        <li>Front-End Web Development,University of Moratuwa</li>
+        <li>Agile Project Management in ICT Projects,University of Moratuwa</li>
+
+        <li>Python Advanced,MIHA Institute</li>
+        <li>
+          The Certificate Course in English Language,University of Colombo
+        </li>
       </ul>
     ),
   },
@@ -74,10 +77,10 @@ const AboutSection = () => {
             I am a full stack web developer with a passion for creating
             interactive and responsive web applications.I enjoy creating dynamic
             and responsive web applications.I have experience working with
-            JavaScript, React,Node.js,Next.js, Express,MySQL, MongoDB, HTML,
-            CSS, and Git. I am a quick learner and I am always looking to expand
-            my knowledge and skill set. I am a team player and I am excited to
-            work with others to create amazing applications. I've also worked on
+            JavaScript, React,Node.js, Express,MySQL, MongoDB, HTML, CSS, and
+            Angular. I am a quick learner and I am always looking to expand my
+            knowledge and skill set. I am a team player and I am excited to work
+            with others to create amazing applications. I've also worked on
             projects involving machine learning and mobile app development. I am
             adaptable and versatile, capable of adapting to new challenges and
             environments. Whether it's learning a new programming language or

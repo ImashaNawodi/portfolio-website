@@ -19,7 +19,7 @@ const HeroSection = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary-400 to-secondary-600">
               Hello, I&apos;m{" "}
             </span>
-            <br></br>
+            <br />
             <TypeAnimation
               sequence={[
                 "Imasha Nawodi",
@@ -30,9 +30,6 @@ const HeroSection = () => {
                 1000,
                 "Backend Developer",
                 1000,
-                "UI/UX Designer",
-                1000,
-              
               ]}
               wrapper="span"
               speed={50}
@@ -40,10 +37,16 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-          Welcome! This is my official website, where I showcase my web
-            development projects. Explore my creations made with simplicity and
-            elegance.
+            Welcome! This is my official website, where I showcase my projects,
+            talents, and professional journey. Explore my creations, crafted
+            with simplicity and elegance. Each project reflects my dedication to
+            innovative solutions and my passion for technology. Whether you are
+            here to learn about my work, get inspired, or connect, I hope you
+            find what you're looking for. Feel free to explore my portfolio and
+            reach out if you have any questions or opportunities to collaborate.
+            Thank you for visiting!
           </p>
+
           <div>
             <Link
               href="/#contact"
