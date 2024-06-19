@@ -15,9 +15,11 @@ module.exports = {
       },
     },
     colors: {
-      ...colors,
-      primary: colors.purple,
-      secondary: colors.pink,
+      sky: colors.sky,        // lightBlue renamed to sky
+      stone: colors.stone,    // warmGray renamed to stone
+      neutral: colors.neutral,// trueGray renamed to neutral
+      gray: colors.gray,      // coolGray renamed to gray
+      slate: colors.slate,    // blueGray renamed to slate
     },
   },
   plugins: [],
