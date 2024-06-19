@@ -80,12 +80,12 @@ const AboutSection = () => {
             JavaScript, React,Node.js, Express,MySQL, MongoDB, HTML, CSS, and
             Angular. I am a quick learner and I am always looking to expand my
             knowledge and skill set. I am a team player and I am excited to work
-            with others to create amazing applications. I've also worked on
+            with others to create amazing applications. I have also worked on
             projects involving machine learning and mobile app development. I am
             adaptable and versatile, capable of adapting to new challenges and
-            environments. Whether it's learning a new programming language or
+            environments. Whether it is learning a new programming language or
             adjusting to different project requirements, I approach tasks with
-            flexibility and a willingness to learn.I'm excited to continue
+            flexibility and a willingness to learn.I am excited to continue
             learning and growing in the field of technology.
           </p>
           <div className="flex flex-row justify-start mt-8">
