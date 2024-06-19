@@ -42,7 +42,7 @@ const HeroSection = () => {
             with simplicity and elegance. Each project reflects my dedication to
             innovative solutions and my passion for technology. Whether you are
             here to learn about my work, get inspired, or connect, I hope you
-            find what you're looking for. Feel free to explore my portfolio and
+            find what you&apos;re looking for. Feel free to explore my portfolio and
             reach out if you have any questions or opportunities to collaborate.
             Thank you for visiting!
           </p>

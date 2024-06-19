@@ -1,5 +1,6 @@
 import React from "react";
 import "../../../animation.css";
+import Image from "next/image";
 
 const icons = [
   {
@@ -8,42 +9,50 @@ const icons = [
       {
         name: "C",
         url: "https://www.cprogramming.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg",
       },
       {
         name: "C++",
         url: "https://www.w3schools.com/cpp/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg",
       },
       {
         name: "C#",
         url: "https://www.w3schools.com/cs/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg",
       },
       {
         name: "JavaScript",
         url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg",
       },
       {
         name: "Java",
         url: "https://www.java.com",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
       {
         name: "Kotlin",
         url: "https://kotlinlang.org",
-        imgSrc: "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
+        imgSrc:
+          "https://www.vectorlogo.zone/logos/kotlinlang/kotlinlang-icon.svg",
       },
       {
         name: "HTML5",
         url: "https://www.w3.org/html/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg",
       },
       {
         name: "CSS3",
         url: "https://www.w3schools.com/css/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg",
       },
     ],
   },
@@ -53,18 +62,21 @@ const icons = [
       {
         name: "React",
         url: "https://reactjs.org/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg",
       },
       {
-        "name": "Node.js",
-        "url": "https://nodejs.org/",
-        "imgSrc": "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+        name: "Node.js",
+        url: "https://nodejs.org/",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg",
       },
-      
+
       {
         name: "Express",
         url: "https://expressjs.com",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg",
         style: {
           filter:
             "invert(27%) sepia(51%) saturate(2476%) hue-rotate(346deg) brightness(104%) contrast(97%)",
@@ -73,12 +85,14 @@ const icons = [
       {
         name: "Flutter",
         url: "https://flutter.dev",
-        imgSrc: "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
+        imgSrc:
+          "https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg",
       },
       {
         name: "Tailwind CSS",
         url: "https://tailwindcss.com/",
-        imgSrc: "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
+        imgSrc:
+          "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
       {
         name: "Angular",
@@ -98,12 +112,14 @@ const icons = [
       {
         name: "Docker",
         url: "https://www.docker.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
       },
       {
         name: "AWS",
         url: "https://aws.amazon.com",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg",
       },
       {
         name: "Firebase",
@@ -113,17 +129,20 @@ const icons = [
       {
         name: "Postman",
         url: "https://postman.com",
-        imgSrc: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
+        imgSrc:
+          "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg",
       },
       {
         name: "VS Code",
         url: "https://code.visualstudio.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
       },
       {
         name: "Visual Studio",
         url: "https://visualstudio.microsoft.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/visualstudio/visualstudio-plain.svg",
       },
       {
         name: "Figma",
@@ -133,7 +152,8 @@ const icons = [
       {
         name: "MATLAB",
         url: "https://www.mathworks.com/",
-        imgSrc: "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
+        imgSrc:
+          "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
       },
     ],
   },
@@ -143,16 +163,17 @@ const icons = [
       {
         name: "MongoDB",
         url: "https://www.mongodb.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
       },
       {
         name: "MySQL",
         url: "https://www.mysql.com/",
-        imgSrc: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        imgSrc:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
       },
     ],
-  }
-  
+  },
 ];
 
 export const LanguagesAndTools = () => {
@@ -206,11 +227,11 @@ export const LanguagesAndTools = () => {
                     animation: "moveLeftToRight 10s ease-in-out infinite",
                   }}
                 >
-                  <img
+                  <Image
                     src={icon.imgSrc}
                     alt={icon.name}
-                    width="40"
-                    height="40"
+                    width={40}
+                    height={40}
                     style={icon.style}
                   />
                   <span className="text-white mt-2">{icon.name}</span>
