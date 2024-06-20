@@ -176,6 +176,7 @@ const icons = [
   },
 ];
 
+
 export const LanguagesAndTools = () => {
   return (
     <section id="languagesandtools" className="p-6">
