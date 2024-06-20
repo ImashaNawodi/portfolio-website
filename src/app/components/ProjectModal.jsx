@@ -25,6 +25,7 @@ const ProjectModal = ({ imgUrl, title, description, gitUrl, previewUrl, closeMod
             layout="fill"
           />
         </div>
+    
         <div className="text-gray-700 mt-4">
           <h3 className="text-xl font-semibold mb-2">{title}</h3>
           <p className="text-sm mb-4">{description}</p>
