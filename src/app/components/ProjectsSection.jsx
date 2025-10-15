@@ -8,13 +8,14 @@ const projectsData = [
   {
     id: 1,
     title: "Portfolio Website",
-    description: "Responsive portfolio website using Next.js and Tailwind CSS. This site showcases projects, skills, and includes a downloadable CV section highlighting educational background, professional experience, and technical expertise.",
+    description:
+      "Responsive portfolio website using Next.js and Tailwind CSS. This site showcases projects, skills, and includes a downloadable CV section highlighting educational background, professional experience, and technical expertise.",
     image: "/Images/projects/port.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/ImashaNawodi/portfolio-website.git",
     previewUrl: "/",
   },
-  
+
   {
     id: 2,
     title: "Motor Service and Wash Application",
@@ -39,8 +40,7 @@ const projectsData = [
     previewUrl:
       "https://drive.google.com/file/d/1_S6KPE7VlnlIQbPs_SC-aXpDwOZ4cHvL/view?usp=drive_link",
   },
-  
-  
+
   {
     id: 4,
     title: "Cafe Management System",
@@ -82,10 +82,12 @@ const projectsData = [
       "Uses Machine Learning (ML) techniques—Linear Regression and Random Forest Regression—to forecast energy consumption in household appliances. Collaborated with Piumi Kavindya to optimize energy efficiency and indoor comfort. Through data exploration and algorithm selection, we prepared and implemented models to accurately predict energy usage. Highlights the Random Forest algorithm's effectiveness in capturing complex data relationships, empowering consumers and utility companies with actionable insights for sustainable energy practices.",
     image: "/Images/projects/ml.jpg",
     tag: ["All", "ML"],
-    gitUrl: "https://github.com/ImashaNawodi/ML-Appliances-energy-prediction_4021_4034",
-    previewUrl: "https://drive.google.com/file/d/1MefuQOzw4y4RFl2E5d6MF3mb_P6lzMUy/view?usp=drive_link",
+    gitUrl:
+      "https://github.com/ImashaNawodi/ML-Appliances-energy-prediction_4021_4034",
+    previewUrl:
+      "https://drive.google.com/file/d/1MefuQOzw4y4RFl2E5d6MF3mb_P6lzMUy/view?usp=drive_link",
   },
-  
+
   {
     id: 8,
     title: "Student Registration System",
@@ -109,9 +111,7 @@ const projectsData = [
     previewUrl:
       "https://drive.google.com/file/d/1sCsD1Y6y3Y3bLG7r99gAoSANTi57XAyG/view?usp=drive_link",
   },
- 
-  
-  
+
   {
     id: 10,
     title: "File Sharing System",
@@ -119,10 +119,32 @@ const projectsData = [
       "Developed a Client-Server File Transfer System using Java for network file sharing. The client uses Swing for the interface, and the server manages file reception, storage, and previewing. It utilizes socket programming for communication and streams for file transfer.",
     image: "/Images/projects/file.jpg",
     tag: ["All", "Network"],
-    gitUrl: "https://github.com/ImashaNawodi/File_Sharing_System_4021_4030_4034.git",
-    previewUrl: "https://drive.google.com/file/d/1_MXefuh2hDWO5drgsUCD6hUwaMLrjFbK/view?usp=drive_link",
-  }
-  
+    gitUrl:
+      "https://github.com/ImashaNawodi/File_Sharing_System_4021_4030_4034.git",
+    previewUrl:
+      "https://drive.google.com/file/d/1_MXefuh2hDWO5drgsUCD6hUwaMLrjFbK/view?usp=drive_link",
+  },
+  {
+    id: 11,
+    title: "Juice Bar Ordering System",
+    description:
+      "The Juice Bar Ordering System is a full-stack application designed to streamline juice bar operations. The frontend, built with React and Tailwind CSS, provides a modern, responsive interface for browsing the menu, managing the cart, authenticating users, and placing orders. It is deployed on Netlify with automatic CI/CD on main branch merges. The backend follows a Node.js microservices architecture with an API Gateway, providing secure and modular APIs for menu, user, order, and cart management. It is containerized using Docker and deployed on AWS EC2 with Terraform and GitHub Actions for automated CI/CD.",
+    image: "/Images/projects/image.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/BlendRush",
+    previewUrl:"https://drive.google.com/file/d/1mWU7bI1gyZqphTfZ04IxnQJDHuPaYnFD/view?usp=sharing"
+  },
+  {
+    id: 12,
+    title: "AI-Powered Depression Level Analyzer",
+    description:
+      "The AI-Powered Depression Level Analyzer is an intelligent chat-based system designed to detect depression levels interactively using the clinically validated PHQ-9 questionnaire. Built with MERN stack and AI integration, it provides a natural conversation experience via an AI chatbot that ensures all questions are answered. The system leverages an agentic workflow to classify depression levels from Minimal to Severe. Results are securely stored in MongoDB and can be accessed through a counselor dashboard, enabling mental health professionals to monitor patients efficiently.",
+    image: "/Images/projects/ai.png",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/DepressionDetector",
+    previewUrl:
+      "https://drive.google.com/file/d/18DFO_N1s2GXovGecEbfOvxjRvK5mA0cc/view?usp=sharing",
+  },
 ];
 
 const ProjectsSection = () => {
@@ -169,7 +191,7 @@ const ProjectsSection = () => {
           name="Network"
           isSelected={tag === "Network"}
         />
-         <ProjectTag
+        <ProjectTag
           onClick={handleTagChange}
           name="ML"
           isSelected={tag === "ML"}
