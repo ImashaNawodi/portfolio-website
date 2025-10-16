@@ -94,11 +94,6 @@ const icons = [
         imgSrc:
           "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
       },
-      {
-        name: "Angular",
-        url: "https://angular.io/",
-        imgSrc: "https://angular.io/assets/images/logos/angular/angular.svg",
-      },
     ],
   },
   {
