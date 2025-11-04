@@ -122,6 +122,18 @@ const icons = [
         imgSrc: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
       },
       {
+        name: "Google Cloud Console",
+        url: "https://cloud.google.com/",
+        imgSrc:
+          "https://www.vectorlogo.zone/logos/google_cloud/google_cloud-icon.svg",
+      },
+      {
+        name: "Cloudinary",
+        url: "https://cloudinary.com/",
+        imgSrc:
+          "https://res.cloudinary.com/cloudinary-marketing/image/upload/v1626800980/brand/Cloud%20Glyph/cloudinary_cloud_glyph_blue.svg",
+      },
+      {
         name: "Postman",
         url: "https://postman.com",
         imgSrc:
@@ -150,8 +162,31 @@ const icons = [
         imgSrc:
           "https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png",
       },
+      {
+        name: "Sourcetree",
+        url: "https://www.sourcetreeapp.com/",
+        imgSrc: "/sourcetrees.png",
+      },
+      {
+        name: "Jira",
+        url: "https://www.atlassian.com/software/jira",
+        imgSrc:
+          "https://www.vectorlogo.zone/logos/atlassian_jira/atlassian_jira-icon.svg",
+      },
+      {
+        name: "Hugging Face",
+        url: "https://huggingface.co/",
+        imgSrc:
+          "https://huggingface.co/front/assets/huggingface_logo-noborder.svg",
+      },
+      {
+        name: "Vercel",
+        url: "https://vercel.com/",
+        imgSrc: "https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg",
+      },
     ],
   },
+
   {
     category: "Databases",
     items: [
@@ -170,7 +205,6 @@ const icons = [
     ],
   },
 ];
-
 
 export const LanguagesAndTools = () => {
   return (
