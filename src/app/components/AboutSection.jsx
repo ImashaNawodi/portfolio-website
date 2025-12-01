@@ -42,14 +42,15 @@ const TAB_DATA = [
           AI Engineering Masterclass: From Zero to AI Hero (Udemy)
         </li>
         <li>
+          Introducing MLOps: From Model Development to Deployment (AI) (Udemy)
+        </li>
+        <li>
           Certificate Course in Microsoft Office,University of Kelaniya Sri
           Lanka
         </li>
         <li>Agile Project Management in ICT Projects,University of Moratuwa</li>
-
         <li>Front-End Web Development,University of Moratuwa</li>
         <li>Agile Project Management in ICT Projects,University of Moratuwa</li>
-
         <li>Python Advanced,MIHA Institute</li>
         <li>
           The Certificate Course in English Language,University of Colombo
